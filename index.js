@@ -3,6 +3,9 @@
 var packageJson = require("./package.json");
 var fs = require("fs");
 
+// Needed by Cognito
+global.fetch = require('node-fetch');
+
 var AWS = require("aws-sdk");
 var AWSCognito = require("amazon-cognito-identity-js");
 var apigClientFactory = require("aws-api-gateway-client").default;
