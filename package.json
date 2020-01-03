@@ -16,10 +16,12 @@
   "author": "Jav V <air@live.ca>",
   "license": "MIT",
   "dependencies": {
-    "amazon-cognito-identity-js": "^1.19.0",
-    "aws-api-gateway-client": "^0.2.7",
-    "aws-sdk": "^2.80.0",
-    "window-mock": "0.0.13",
-    "yargs": "^8.0.2"
+    "@babel/runtime": "^7.7.7",
+    "amazon-cognito-identity-js": "^3.2.1",
+    "aws-api-gateway-client": "^0.3.3",
+    "aws-sdk": "^2.597.0",
+    "node-fetch": "^2.6.0",
+    "window-mock": "0.1.0",
+    "yargs": "^15.1.0"
   }
 }
